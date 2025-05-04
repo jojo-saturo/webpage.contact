@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get to Know Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .mylinks {
+        margin-right: 20px;
+        letter-spacing: 2px;
+        text-decoration: none;
+
+      }
+      body {
+        letter-spacing: 1px;
+        background-color: white;
+        padding: 10px;
+        font-family:  "Montserrat", sans-serif;
+      }
+      h1 {
+        font-weight: 600;
+        font-size: 4em;
+        color: #74512d;
+      }
+      .flex_container {
+        max-width: 50%;
+        margin: 0 auto;
+      }
+      .content_container {
+        background-color: #74512d;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10%
+        width: 90%;
+        border-radius: 10px;
+      }
+      .responsive_image {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        width: 100%;
+      }
+      .myimage_container {
+        width: inherit;
+        border-radius: 10px;
+      }
+      .mystory_container {
+        margin: 10px;
+        height: inherit;
+        font-weight: 200;
+        font-size: 14px;
+      }
+      .story_container {
+        color: black;
+        font-weight: 400;
+      }
+      .skills_container {
+        color: black;
+      }
+      a:hover {
+        background-color: lightgreen;
+      }
+      /* Target for mobile screens */
+      @media only screen and (max-width: 650px) {
+        .content_container {
+          flex-direction: column;
+          width: 100%;
+        }
+        .responsive_image {
+          height: 100%;
+        }
+        .mystory_container {
+          font-size: smaller;
+          font-weight: 400;
+        }
+        .story_container {
+          font-size: 0.89em;
+          color: black;
+        }
+        .head_container {
+          font-size: 1.2em;
+          color: white;
+        }
+      }
+
+      /*Target for tablet screens*/
+      @media screen and (min-width: 651px) and (max-width: 1024px) {
+        .conten_container {
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex_container">
+      <div class="mylinks">
+        <a style="color: black;" href="index.html">/home</a>
+        <a style="color: black href="about.html">/about</a>
+        <a style="color: black href="project">/project</a>
+        <a style="color: black href="contact.html">/contact</a>
+      </div>
+      <div class="myself_container">
+        <h1>What I Love Doing</h1>
+        <p style="color: white">
+          I’m a developer who enjoys bringing ideas to life through code. My
+          main focus is frontend development, where I design and build
+          intuitive, responsive user interfaces. I enjoy working with modern
+          tools like React and Tailwind CSS, and I’m always looking for ways to
+          improve performance and user experience. I'm also exploring backend
+          development and creating decentralized apps on the Solana blockchain.
+          But there’s more to me than just code. I love playing music while I
+          work — it keeps me in the flow. I play footbal, and playing drums is
+          one of my favorite ways to relax and stay active. Whether I’m on the
+          field or behind the screen, I bring energy, focus, and creativity to
+          everything I do. “Code is my craft, but rhythm keeps me moving on the
+          keyboard, the drums, or the pitch.”
+        </p>
+      </div>
+      <div class="content_container">
+        <div class="myimage_container">
+          <img
+            src="https://fakeimg.pl/300x300/d6409a/9c8383?font=lobster"
+            class="responsive_image"
+            alt="my picture"
+            title="Jojo"
+            width="200"
+            height="317"
+          />
+        </div>
+        <div class="mystory_container">
+          <h2 class="head_container">My Journey Into Coding</h2>
+          <p class="story_container">
+            My journey into coding started thanks to a good friend of mine who’s
+            a full-stack developer. At the time, I was simply someone who loved
+            computers. I enjoyed exploring software, customizing settings, and
+            just figuring out how things worked behind the scenes. But I had
+            never written a line of code. One day, my friend showed me how he
+            built a website from scratch. I was amazed not just by what he
+            created, but by the idea that I could build something real and
+            useful with just a laptop and a bit of code. That moment lit a
+            spark. I started learning frontend development, diving into HTML,
+            CSS, and JavaScript. It wasn’t easy, but the joy of building
+            something from nothing kept me going. I now specialize in creating
+            responsive, user-friendly websites that look great and perform even
+            better. Every project I build is a reminder of why I started: a love
+            for computers, a passion for clean design, and the drive to always
+            keep learning.
+          </p>
+        </div>
+      </div>
+      <h3 style="color: #74512d">🤝 Soft Skills</h3>
+      <section class="skills_container" id="soft-skills">
+        <ul>
+          <li>
+            <strong style="color: #543310">Communication:</strong> I clearly
+            express ideas and collaborate effectively with designers,
+            developers, and clients.
+          </li>
+          <br />
+          <li>
+            <strong style="color: #543310">Problem-Solving:</strong> I enjoy
+            breaking down complex challenges and finding clean, efficient
+            solutions.
+          </li>
+          <br />
+          <li>
+            <strong style="color: #543310">Attention to Detail:</strong> I focus
+            on the little things from consistent design to clean code that make
+            a big impact.
+          </li>
+          <br />
+          <li>
+            <strong style="color: #543310">Adaptability:</strong> I’m always
+            open to feedback and quickly adapt to new tools or workflows.
+          </li>
+          <br />
+          <li>
+            <strong style="color: #543310">Creative Thinking:</strong> I bring a
+            creative approach to building UI that’s both functional and visually
+            engaging.
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
